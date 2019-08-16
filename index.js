@@ -14,6 +14,6 @@ server.use('/', serverRouter)
 server.use('/api/users', userRouter);
 server.use('/api/posts', postRouter);
 
-const port = 4000;
+//const port = 4000;
 
 server.listen(port, () => console.log(`\nAPI RUNNING on port http://localhost:${port} \n`)); 
